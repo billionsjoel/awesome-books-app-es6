@@ -34,9 +34,11 @@ To get a local copy up and running follow these simple example steps.
 
   ## Author1
 
+👤 **Billions Atugonza joel**
 
-
-
+- GitHub: [@billionsjoel](https://github.com/billionsjoel)
+- Twitter: [@billionsjoel](https://twitter.com/BillionsJoel)
+- LinkedIn: [@billionsjoel](https://www.linkedin.com/in/billionsjoel/)
 
 ## Author2
 👤 **Nuri Lacka**
@@ -44,6 +46,12 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@Nuri1977](https://github.com/Nuri1977)
 - Twitter: [@Lackanuri](https://twitter.com/LackaNuri)
 - LinkedIn: [@nurilacka](https://www.linkedin.com/in/nuri-lacka-7141b01ba/)
+
+## Author3
+👤 **Islam Bahnas**
+- GitHub: [@Banstein](https://github.com/Banstein)
+- Twitter: [@islam_bahnas](https://twitter.com/islam_bahnas)
+- LinkedIn: [islam-bahnas](www.linkedin.com/in/islam-bahnas)
 
 
 ## 🤝 Contributing
