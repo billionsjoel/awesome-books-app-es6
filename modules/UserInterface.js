@@ -1,4 +1,5 @@
 import Book from './Book.js';
+import * as luxon from '../node_modules/luxon/src/luxon.js';
 
 const displayBooksHtml = document.querySelector('.books');
 const addButton = document.querySelector('.add-btn');
@@ -9,6 +10,7 @@ let contactNav = document.querySelector('.contact-nav');
 let booksSection = document.getElementById('books');
 let formSection = document.getElementById('add-books-form-section');
 let contactSection = document.getElementById('contact');
+let dateHtml = document.querySelector('.date');
 
 let id = Math.floor(Math.random() * Math.floor(Math.random() * Date.now()));
 let bookHtml = '';
@@ -17,6 +19,14 @@ let storedBooks =
 let allBooksList = [];
 let backgroundColorChoice = 1;
 let setBookBackgroundColor;
+const now = luxon.DateTime.now();
+const today = now.toLocaleString(luxon.DateTime.DATETIME_HUGE_WITH_SECONDS	, {
+	year: 'numeric',
+	month: 'long',
+	day: 'numeric',
+});
+
+dateHtml.innerHTML = `${today}`;
 
 class UI {
 	//display books on UI
