@@ -21,8 +21,12 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-** git clone https://github.com/billionsjoel/awesome-books-app-es6.git**
-** git pull origin **
+To get a local copy up and running follow these simple example steps.
+  - Clone the repository using the repo link [here](https://github.com/billionsjoel/awesome-books-app-es6.git)
+  - Open terminal and navigate to the downloaded / project folder
+  - run npm install
+  - run npm install live-server.
+  - run live-server
 
 
 To get a local copy up and running follow these simple example steps.
