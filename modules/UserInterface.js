@@ -1,5 +1,6 @@
 import Book from './Book.js';
-import * as luxon from '../node_modules/luxon/src/luxon.js';
+//import * as luxon from '../node_modules/luxon/src/luxon.js';
+import * as luxon from './Date.js';
 
 const displayBooksHtml = document.querySelector('.books');
 const addButton = document.querySelector('.add-btn');
@@ -19,14 +20,9 @@ let storedBooks =
 let allBooksList = [];
 let backgroundColorChoice = 1;
 let setBookBackgroundColor;
-const now = luxon.DateTime.now();
-const today = now.toLocaleString(luxon.DateTime.DATETIME_HUGE_WITH_SECONDS	, {
-	year: 'numeric',
-	month: 'long',
-	day: 'numeric',
-});
 
-dateHtml.innerHTML = `${today}`;
+//print the date to the dom
+dateHtml.innerHTML = `${luxon.today}`;
 
 class UI {
 	//display books on UI
