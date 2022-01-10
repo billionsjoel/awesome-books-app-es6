@@ -47,8 +47,6 @@
 
 .books {
   border: 2px solid #000;
-
-  /* padding: 1rem; */
   border-radius: 2px;
 }
 
@@ -61,7 +59,6 @@
 }
 
 .book-title {
-  /* text-transform: uppercase; */
   margin: 0.5rem 0;
   font-size: 1.5rem;
 }

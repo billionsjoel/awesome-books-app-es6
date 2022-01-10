@@ -1,8 +1,6 @@
 import Book from './Book.js';
 import * as luxon from './Date.js';
 
-// import * as luxon from '../node_modules/luxon/src/luxon.js';
-
 const displayBooksHtml = document.querySelector('.books');
 const addButton = document.querySelector('.add-btn');
 const form = document.getElementById('form');
